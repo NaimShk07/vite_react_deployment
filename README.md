@@ -6,11 +6,12 @@
 2. Make repository
 3. Push all the files to github
 4. In github go to setting change the name of branch from master to **main**, if your branch is master.
-5. After changing branch on website change as well on terminal **git branch/git checkout main/git pull origin main/git push**
+5. After changing branch on website, you have to change on your system as well we will do in further steps.
 6. Then go to action/general in workflow permission switch to **read and write permission**
 7. Put base below plugins in vite.config.js file : **base: '/<repo_name>/'**
-8. In main directory make file **.github/workflows/deploy.yml**
-9. Put this below code in **deploy.yml file**
+8.  change branch in terminal : **git branch/git checkout main**
+9. In main directory make file **.github/workflows/deploy.yml**
+10. Put this below code in **deploy.yml file**
 
 ```
 name: Deploy
@@ -65,7 +66,8 @@ jobs:
 
 ```
 
-9. In github go to actions and wait for sometime
-10. Then change the branch from main ot gh_pages
-11. Go to setting/pages select gh_pages and save and wait for some second there will a link on top
-12. And done your vite react is deployed in github pages
+9. then commit push
+10.  In github go to actions and wait for sometime
+11. Then change the branch from main to gh_pages
+12. Go to setting/pages select gh_pages and save and wait for some second there will a link on top
+13. And done your vite react is deployed in github pages
