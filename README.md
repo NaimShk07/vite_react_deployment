@@ -66,7 +66,7 @@ jobs:
 
 ```
 
-9. then commit push
+9. then commit push by **git push orign main**
 10.  In github go to actions and wait for sometime
 11. Then change the branch from main to gh_pages
 12. Go to setting/pages select gh_pages and save and wait for some second there will a link on top
